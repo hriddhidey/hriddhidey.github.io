@@ -22,11 +22,11 @@
 
 /* Appearance Animation */
 main {
-	-webkit-animation: appear 7s ease-in;
-    -moz-animation: appear 7s ease-in;
-    -ms-animation: appear 7s ease-in;
-    -o-animation: appear 7s ease-in;
-    animation: appear 7s ease-in;
+	-webkit-animation: appear 10s ease-in;
+    -moz-animation: appear 10s ease-in;
+    -ms-animation: appear 10s ease-in;
+    -o-animation: appear 10s ease-in;
+    animation: appear 10s ease-in;
 }
 
 @-keyframes appear{
@@ -135,11 +135,11 @@ button {
 	padding: 10px;
 	font-family: 'Open Sans',sans-serif;
 	font-weight: lighter;
-	-webkit-animation: appear 7s ease-in;
-    -moz-animation: appear 7s ease-in;
-    -ms-animation: appear 7s ease-in;
-    -o-animation: appear 7s ease-in;
-    animation: appear 7s ease-in;
+	-webkit-animation: appear 10s ease-in;
+    -moz-animation: appear 10s ease-in;
+    -ms-animation: appear 10s ease-in;
+    -o-animation: appear 10s ease-in;
+    animation: appear 10s ease-in;
     -webkit-transition: all 0.3s ease-in-out ;
 	-moz-transition: all 0.3s ease-in-out ;
 	-ms-transition: all 0.3s ease-in-out ;
