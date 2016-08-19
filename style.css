@@ -4,7 +4,6 @@
 
 * {
     box-sizing: border-box;
-    line-height: 1.6;
 }
 
 /* Grid system */
@@ -107,6 +106,15 @@ body {
 	padding: 0;
 	padding-top: 10vw;
 }
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: #48D1CC;
+}
+
+::selection {
+    color: white; 
+    background: #48D1CC;
+}
 .main {
 	margin: 0 auto;
 	width: 85vw;
@@ -140,6 +148,10 @@ button {
 }
 button:hover {
 	box-shadow: 0 1px 5px 2px #eee;
+	cursor: pointer;
+}
+button:focus {
+	outline: 0;
 }
 h3 {
 	font-family: 'Scope One',sans-serif;
@@ -150,6 +162,7 @@ p {
 	font-weight: lighter;
 	text-align: justify;
 	letter-spacing: .03em;
+	line-height: 1.6;
 }
 footer {
 
@@ -174,6 +187,9 @@ a {
 a:hover {
 	color: tomato;
 	border-bottom: 1px dotted tomato;
+}
+.resume {
+	border-bottom: none;
 }
 
 @media only screen and (min-width: 768px) {
