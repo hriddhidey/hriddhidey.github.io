@@ -1,4 +1,3 @@
-@import 'https://fonts.googleapis.com/css?family=Roboto';
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400';
 @import 'https://fonts.googleapis.com/css?family=Scope+One';
 
@@ -20,52 +19,13 @@
     /*border: 1px solid red;*/
 }
 
-/* Appearance Animation */
-main {
-	-webkit-animation: appear 10s ease-in;
-    -moz-animation: appear 10s ease-in;
-    -ms-animation: appear 10s ease-in;
-    -o-animation: appear 10s ease-in;
-    animation: appear 10s ease-in;
-}
-
-@-keyframes appear{
-    0% { opacity:0; }
-    80% { opacity: 0; }
-    90% { opacity:0.5; }
-    100% { opacity:1; }
-}
-@-webkit-keyframes appear{
-    0% { opacity:0; }
-    80% { opacity: 0; }
-    90% { opacity:0.5; }
-    100% { opacity:1; }
-}
-@-moz-keyframes appear{
-    0% { opacity:0; }
-    80% { opacity: 0; }
-    90% { opacity:0.5; }
-    100% { opacity:1; }
-}
-@-ms-keyframes appear{
-    0% { opacity:0; }
-    80% { opacity: 0; }
-    90% { opacity:0.5; }
-    100% { opacity:1; }
-}
-@-o-keyframes appear{
-    0% { opacity:0; }
-    80% { opacity: 0; }
-    90% { opacity:0.5; }
-    100% { opacity:1; }
-}
-
 /* Blinking Cursor */
 
 .typed-cursor{
     opacity: 1;
     font-size: 2em;
     font-weight: 100;
+    display: inline;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
     -ms-animation: blink 0.7s infinite;
@@ -104,7 +64,6 @@ body {
 	display: block;
 	margin: 0;
 	padding: 0;
-	padding-top: 10vw;
 }
 ::-moz-selection { /* Code for Firefox */
     color: white;
@@ -115,19 +74,39 @@ body {
     color: white; 
     background: #48D1CC;
 }
+
+.logo {
+	max-width: 50vw;
+	margin: 0 auto;
+	padding-top: 25vw;
+	padding-bottom: 10vw;
+}
+
+.head {
+	margin: 0 auto;
+	background-image: url("bg.jpg");
+	background-size: cover;
+	height: 100vh;
+}
+
 .main {
 	margin: 0 auto;
 	width: 85vw;
 }
+
+.details {
+	margin-top: 10vw;
+}
+
 header {
-	float: left;
+	margin: 0 auto;
 	display: inline;
 	font-family: 'Scope One',serif;
 	font-size: 2em;
-	margin-bottom: 2vw;
-	text-align: left;
+	text-align: center;
 	white-space: pre-line;
 }
+
 button {
 	margin-bottom: 3vw;	
 	background-color: #fff;
@@ -135,16 +114,6 @@ button {
 	padding: 10px;
 	font-family: 'Open Sans',sans-serif;
 	font-weight: lighter;
-	-webkit-animation: appear 10s ease-in;
-    -moz-animation: appear 10s ease-in;
-    -ms-animation: appear 10s ease-in;
-    -o-animation: appear 10s ease-in;
-    animation: appear 10s ease-in;
-    -webkit-transition: all 0.3s ease-in-out ;
-	-moz-transition: all 0.3s ease-in-out ;
-	-ms-transition: all 0.3s ease-in-out ;
-	-o-transition: all 0.3s ease-in-out ;
-	transition: all 0.3s ease-in-out ;
 }
 button:hover {
 	box-shadow: 0 1px 5px 2px #eee;
@@ -192,7 +161,15 @@ a:hover {
 	border-bottom: none;
 }
 
+.hidden{
+     opacity:0;
+}
+.visible{
+     opacity:1;
+}
+
 @media only screen and (min-width: 768px) {
+
     .col-1 {width: 8.33%;}
 	.col-2 {width: 16.66%;}
 	.col-3 {width: 25%;}
@@ -205,4 +182,27 @@ a:hover {
 	.col-10 {width: 83.33%;}
 	.col-11 {width: 91.66%;}
 	.col-12 {width: 100%;}
+
+	.logo {
+		float: right;
+		max-width: 15vw;
+		margin: 0 auto;
+		padding-top: 30px;
+		padding-bottom: 130px;
+		margin-right: 3vw;
+	}
+
+	header {
+		font-size: 3em;
+		position: relative;
+		top: 80px;
+		margin-left: 10vw;
+	}
+
+	.typed-cursor {
+		position: relative;
+		font-size: 3em;
+		top: 80px;
+	}
+
 }
