@@ -98,6 +98,10 @@ body {
 	margin-top: 10vw;
 }
 
+.hire {
+	text-align: center;
+}
+
 header {
 	margin: 0 auto;
 	display: inline;
@@ -141,6 +145,8 @@ footer {
 	text-align: center;
 	color: #eee; 	
 	font-size: 0.7em;
+	width: 90%;
+	margin: 0 auto;
 }
 a {
 	text-decoration: none;
@@ -153,6 +159,13 @@ a {
 	-o-transition: all 0.3s ease-in-out ;
 	transition: all 0.3s ease-in-out ;
 }
+
+h4{
+	font-family: 'Scope One',sans-serif;
+	font-size: 1.1em;
+	color: #ccc;
+}
+
 a:hover {
 	color: tomato;
 	border-bottom: 1px dotted tomato;
