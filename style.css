@@ -98,8 +98,8 @@ body {
 	margin-top: 10vw;
 }
 
-.hire {
-	text-align: center;
+.project_heading {
+	padding-bottom: 0;
 }
 
 header {
@@ -116,11 +116,16 @@ button {
 	background-color: #fff;
 	border: 1px solid #eee;
 	padding: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
 	font-family: 'Open Sans',sans-serif;
 	font-weight: lighter;
+	font-size: 1em;
+	transition: .5s ease-in-out;
+	-webkit-transition: .5s ease-in-out;
 }
 button:hover {
-	box-shadow: 0 1px 5px 2px #eee;
+	box-shadow: 0 1px 5px 2px #ddd;
 	cursor: pointer;
 }
 button:focus {
@@ -160,10 +165,10 @@ a {
 	transition: all 0.3s ease-in-out ;
 }
 
-h4{
+h4 {
 	font-family: 'Scope One',sans-serif;
 	font-size: 1.1em;
-	color: #ccc;
+	color: tomato;
 }
 
 a:hover {
@@ -172,6 +177,7 @@ a:hover {
 }
 .resume {
 	border-bottom: none;
+	padding-top: 0;
 }
 
 .hidden{
@@ -179,6 +185,10 @@ a:hover {
 }
 .visible{
      opacity:1;
+}
+
+.hire {
+	padding-bottom: 0;
 }
 
 @media only screen and (min-width: 768px) {
