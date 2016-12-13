@@ -227,5 +227,8 @@ a:hover {
 		font-size: 3em;
 		top: 80px;
 	}
-
+	
+	.resume {
+		margin-bottom: 10px;
+	}
 }
