@@ -20,23 +20,24 @@ section {
 }
 
 button {
-	margin-bottom: 3vw;	
 	background-color: #fff;
 	border: 1px solid #eee;
-	padding: 10px 15px 10px 15px;
+	padding: 12px 20px 12px 20px;
 	font-family: 'Open Sans',sans-serif;
 	font-weight: lighter;
 	font-size: 1em;
 	text-transform: uppercase;
+	color: #333;
 
-	transition: 0.5s ease-in-out;
-	-webkit-transition: 0.5s ease-in-out;
-	-moz-transition: 0.5s ease-in-out;
-	-o-transition: 0.5s ease-in-out;
+	transition: 0.2s ease-in-out;
+	-webkit-transition: 0.2s ease-in-out;
+	-moz-transition: 0.2s ease-in-out;
+	-o-transition: 0.2s ease-in-out;
 }
 
 button:hover {
-	box-shadow: 0 1px 5px 2px #ddd;
+	box-shadow: inset 6.5em 0 0 0 black;
+	color: #eee;
 	cursor: pointer;
 }
 
@@ -183,17 +184,4 @@ a:hover {
 
 .details {
 	margin-top: 10vw;
-}
-
-.project_heading {
-	padding-bottom: 0;
-}
-
-.resume {
-	border-bottom: none;
-	margin-bottom: 5vw;
-}
-
-.hire {
-	padding-bottom: 0;
 }

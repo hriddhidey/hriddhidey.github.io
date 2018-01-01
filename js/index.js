@@ -16,14 +16,3 @@ $(function(){
 		loopCount: false
 	});
 });
-
-function loadArticle(post) {
-	var text = this.posts[post],
-	converter = new showdown.Converter(),
-	html = converter.makeHtml(text),
-	articleWindow = window.open("./article.html", "_blank");
-
-	console.log(text);
-
-	articleWindow.document.querySelector('body').innerHTML = html;
-}
