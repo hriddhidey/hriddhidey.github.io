@@ -8,7 +8,7 @@ document.addEventListener('mousemove', function(e) {
 
 $(function(){
 	$("#head-text").typed({
-		strings: [" "," ","Developer.", "Creative.", "Fundamentally lazy.", "Hi, I'm Hriddhi."],
+		strings: [" "," ","Developer.", "Creative.", "Hungry.", "Hi, I'm Hriddhi."],
 		typeSpeed: 10,
 		backDelay: 1000,
 		loop: false,
