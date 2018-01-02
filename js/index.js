@@ -7,8 +7,11 @@ document.addEventListener('mousemove', function(e) {
 });
 
 navigator.serviceWorker && navigator.serviceWorker.register('/js/sw.js')
-.then(function(registration) {
-	console.log('Excellent, registered with scope: ', registration.scope);
+.then(registration => {
+	console.log('Excellent, registered with scope: ', registration.scope)
+})
+.catch(err => {
+	console.log('error occurred: ', err)
 });
 
 $(function(){
