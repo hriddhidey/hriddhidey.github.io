@@ -26,17 +26,20 @@ button {
 	font-family: 'Open Sans',sans-serif;
 	font-weight: lighter;
 	font-size: 1em;
+	width: 150px;
+	height: 50px;
+	letter-spacing: 0.2rem;
 	text-transform: uppercase;
 	color: #333;
 
-	transition: 0.2s ease-in-out;
-	-webkit-transition: 0.2s ease-in-out;
-	-moz-transition: 0.2s ease-in-out;
-	-o-transition: 0.2s ease-in-out;
+	transition: 0.15s ease-in-out;
+	-webkit-transition: 0.15s ease-in-out;
+	-moz-transition: 0.15s ease-in-out;
+	-o-transition: 0.15s ease-in-out;
 }
 
 button:hover {
-	box-shadow: inset 6.5em 0 0 0 black;
+	box-shadow: inset 150px 0 0 0 black;
 	color: #eee;
 	cursor: pointer;
 }
@@ -106,12 +109,12 @@ a:hover {
 
 ::-moz-selection {
     color: white;
-    background: #48D1CC;
+    background: #43a9a3;
 }
 
 ::selection {
     color: white; 
-    background: #48D1CC;
+    background: #43a9a3;
 }
 
 .main {
